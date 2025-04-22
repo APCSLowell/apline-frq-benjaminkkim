@@ -6,7 +6,7 @@ public class APLine {
     c = f;
   }
   public double getSlope() {
-    return (-1 * a)/b;
+    return -1 * a/b;
   }
   public boolean isOnLine(int num1, int num2) {
     if(a * num1 + b * num2 + c == 0) {
