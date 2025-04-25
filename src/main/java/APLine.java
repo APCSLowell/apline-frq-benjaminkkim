@@ -1,5 +1,5 @@
 public class APLine {
-  int a, b, c;
+  private int a, b, c;
   public APLine(int d, int e, int f) {
     a = d;
     b = e;
